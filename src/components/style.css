@@ -1,0 +1,65 @@
+.dropdown-container{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* display: flex; */
+    color: #fff;
+    padding-right: 50px;
+}
+
+.img-letter{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    margin: 6%;
+}
+
+.discount{
+    background-color: yellow;
+}
+.shop-now-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:rgb(53, 219, 175);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shop-now-button:hover {
+    background-color: darkgreen; /* Change the color on hover if desired */
+  }
+  .margin {
+    margin-right: 50px;
+  }
+  /* ImageCard.css */
+.image-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 250px;
+    background-color: #f9f9f9;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  

@@ -1,0 +1,92 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+    
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  .navbar-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+ 
+  .navbar-item a:hover {
+    color: #f0c14b; /* Change color on hover */
+  }
+  .navbar-image{
+     height: 60px;
+     margin-left: 5%;
+     margin-top: 1.5%;
+  }
+  .navbar-dropdown {
+    margin-right: 20px; /* Add some spacing between the logo and the dropdown */
+  }
+  
+  /* Style the select dropdown */
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2df37;
+    color: #333;
+  }
+  
+  /* Customize the appearance of the dropdown arrow (optional) */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  select::before {
+    content: '\f107';
+    font-family: FontAwesome; /* If you are using Font Awesome */
+    margin-right: 8px;
+    color: #333;
+  }
+  .navbar-dropdown{
+    margin-left: 18%;
+    margin-top: -3.5%;
+    width: 50px;
+  }
+  .car-logo{
+    padding-left: 13px;
+    padding-bottom: 20px;
+  }
+  /* .searchbar{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(226, 225, 225);
+    color: #000000;
+    
+  } */
+
+  input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 150px; /* Add some spacing between the select dropdown and the input box */
+    /* margin-top: -100px; */
+  }
+.curr-lang{
+  background-color: #fff;
+}
